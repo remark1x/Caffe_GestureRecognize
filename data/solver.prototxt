@@ -1,0 +1,19 @@
+net: "submit-net.prototxt"
+test_iter: 420
+test_state: { stage: "1" }
+test_interval: 815
+test_initialization: false
+display: 815
+average_loss: 40
+base_lr: 0.0005
+lr_policy: "step"
+power: 0.5
+max_iter: 52176
+stepsize: 39132
+gamma: 0.5
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 815
+snapshot_prefix: "1miohands-v2"
+solver_mode: CPU
+
