@@ -17,7 +17,7 @@ openCV调用摄像头获取图像帧，caffe初始化网络模型对帧进行分
 
 `项目当前状态说明`<br>
 60个手势大概有8个可以比较好地分类出来(概率>0.5)，原因归结于测试数据与训练数据不一致以及训练数据的局限性。
-所以本项目的主要目的改作：学习caffe框架，搭建caffe环境，利用caffe模型，实现模型的功能。
+所以本项目的主要目的改作：学习caffe框架，搭建caffe环境，利用caffe模型，实现模型的功能。<br>
 
 
 ## Dependency DownLoad:
@@ -33,7 +33,6 @@ C++版本主要依赖文件(include,data,lib,thirdparty,部分超过100M限制)�
 解压到根目录下，对应项目相对目录。<br>
 [链接](https://pan.baidu.com/s/1f8JUHpxMMmxRQ7Ej_DTHog,"kb4x") `kb4x`<br>
 
-
 ## Release_v1 Download:
 about 200M,can be used directly on x86_64 Windows.<br>
 [BaiduYun](https://pan.baidu.com/s/1prBpO7BGj-9Ds4jGvh4QAA) `eypc`<br>
@@ -41,3 +40,13 @@ about 200M,can be used directly on x86_64 Windows.<br>
 ### 第一发布版本下载：
 cpp版本项目已打包(源代码未重构，可正常使用旧版)，解压后约200M，仅包括需要的依赖项。<br>
 [链接](https://pan.baidu.com/s/1prBpO7BGj-9Ds4jGvh4QAA,"eypc") `eypc`<br>
+
+***
+```
+- [x] Study caffe
+- [x] acheive gesture recognize
+- [ ] reconstruct with design pattern
+- [ ] can be used easily for other caffe model
+```
+
+***
