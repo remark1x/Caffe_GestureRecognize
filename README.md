@@ -22,7 +22,7 @@ openCV调用摄像头获取图像帧，caffe初始化网络模型对帧进行分
 
 ## Dependency DownLoad:
 With github's 100M-limit,have to put some important files into Baidu Yun.after free downloading,zap and set under root path.<br>
-[BaiduYun](https://pan.baidu.com/s/1f8JUHpxMMmxRQ7Ej_DTHog)   Password：`kb4x`<br>
+[BaiduYun](https://pan.baidu.com/s/1f8JUHpxMMmxRQ7Ej_DTHog) `kb4x`<br>
 
 ### 下载：
 C++版本主要依赖文件(include,data,lib,thirdparty,部分超过100M限制)：<br>
@@ -31,13 +31,13 @@ C++版本主要依赖文件(include,data,lib,thirdparty,部分超过100M限制)�
 * data：只用于分类的权重模型、标签文件。<br>
 * thirdparty：用于运行时调用的dll库。<br>
 解压到根目录下，对应项目相对目录。<br>
-[链接](https://pan.baidu.com/s/1f8JUHpxMMmxRQ7Ej_DTHog,"kb4x")    密码：`kb4x`<br>
+[链接](https://pan.baidu.com/s/1f8JUHpxMMmxRQ7Ej_DTHog,"kb4x") `kb4x`<br>
 
 
 ## Release_v1 Download:
 about 200M,can be used directly on x86_64 Windows.<br>
-[BaiduYun](https://pan.baidu.com/s/1prBpO7BGj-9Ds4jGvh4QAA)   Password：`eypc`<br>
+[BaiduYun](https://pan.baidu.com/s/1prBpO7BGj-9Ds4jGvh4QAA) `eypc`<br>
 
 ### 第一发布版本下载：
 cpp版本项目已打包(源代码未重构，可正常使用旧版)，解压后约200M，仅包括需要的依赖项。<br>
-[链接](https://pan.baidu.com/s/1prBpO7BGj-9Ds4jGvh4QAA,"eypc")    密码：`eypc`<br>
+[链接](https://pan.baidu.com/s/1prBpO7BGj-9Ds4jGvh4QAA,"eypc") `eypc`<br>
