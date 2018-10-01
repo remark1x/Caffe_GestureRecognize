@@ -1,5 +1,4 @@
 # Gesture Recognize in Caffe<br> 
-### 基于 Caffe 的静态手势识别<br>
 
 Using trained caffe model and openCV core funtions,recognize frames from camera with caffe net method(forward culculate). it's a try for applying deep learning network that there are no trains but classification. It has python and cpp two versions,the reason why cpp version exits is that pyInstaller failed to packet and cpp is easier to packet and obviously works faster. the work of the project is mainly that<br>
 * initillize caffe net and openCV class,<br>
@@ -11,6 +10,7 @@ Using trained caffe model and openCV core funtions,recognize frames from camera 
 `project status`<br>
 Only 8/60 kinds of gestures can be clssified correctly,but we still can study how to set up caffe enviroment and how to use caffe model to achieve thos we want.It's common parts.<br>
 
+### 基于 Caffe 的静态手势识别
 ### 说明：
 openCV调用摄像头获取图像帧，caffe初始化网络模型对帧进行分类(classification)。是对已训练caffe model的应用，有python，C++版本(可打包，可移植)。 <br>
 输入是摄像头的获取图像帧，输出是caffe net的输出层数据，进一步处理得到对应61个标签的概率。中间过程是权重网络的初始化，有向图的前向运算。<br>
