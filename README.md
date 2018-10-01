@@ -41,12 +41,17 @@ about 200M,can be used directly on x86_64 Windows.<br>
 cpp版本项目已打包(源代码未重构，可正常使用旧版)，解压后约200M，仅包括需要的依赖项。<br>
 [链接](https://pan.baidu.com/s/1prBpO7BGj-9Ds4jGvh4QAA,"eypc") `eypc`<br>
 
-***
-```
-- [x] Study caffe
-- [x] acheive gesture recognize
-- [ ] reconstruct with design pattern
-- [ ] can be used easily for other caffe model
-```
 
-***
+## Goals
+
+> - [x] study caffe
+> - [x] acheive gesture recognize
+> - [ ] reconstruct with design pattern
+>> - [ ] strategy pattren
+>>>GestureRecognizer
+>>>>FrameCapture  
+>>>>FrameAnalyzer
+> - [ ] can be used easily for other caffe models
+
+___
+`caffe` `gesture recognize` `C++` `design pattern`
