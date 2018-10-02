@@ -47,10 +47,14 @@ cpp版本项目已打包(源代码未重构，可正常使用旧版)，解压后
 > - [x] study caffe
 > - [x] acheive gesture recognize
 > - [ ] reconstruct with design pattern
->> - [ ] strategy pattren
+>> - [ ] strategy pattern
 >>>GestureRecognizer
 >>>>FrameCapture  
 >>>>FrameAnalyzer
+>> - [ ] fatory pattern
+>>>Caffe frame
+>> - [ ] sigleton pattern
+>>>only one instance
 > - [ ] can be used easily for other caffe models
 
 ___
