@@ -49,9 +49,11 @@ cpp版本项目已打包(源代码未重构，可正常使用旧版)，解压后
 > - [x] acheive gesture recognize
 > - [ ] reconstruct with design pattern
 >> - [ ] strategy pattern
->>>GestureRecognizer
+>>>FrameRecognizer
 >>>>FrameCapture  
 >>>>FrameAnalyzer
+>> - [ ] iterator pattern
+>>> - [ ] recognizer menuItem
 >> - [ ] fatory pattern
 >>>Caffe frame
 >> - [ ] sigleton pattern
