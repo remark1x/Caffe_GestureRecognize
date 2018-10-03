@@ -51,7 +51,7 @@ cpp版本项目已打包(源代码未重构，可正常使用旧版)，解压后
 >>>FrameRecognizer
 >>>>FrameCapture  
 >>>>FrameAnalyzer
->> - [ ] iterator and composite pattern
+>> - [ ] iterator pattern
 >>> - [ ] recognizer menuItem
 >> - [ ] fatory pattern
 >>>Caffe frame
