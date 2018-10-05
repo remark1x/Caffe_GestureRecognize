@@ -37,6 +37,9 @@ C++版本主要依赖文件(include,data,lib,thirdparty,部分超过100M限制)�
 about 200M,can be used directly on x86_64 Windows.<br>
 [BaiduYun](https://pan.baidu.com/s/1prBpO7BGj-9Ds4jGvh4QAA) `eypc`<br>
 
+`Run`  as this(All functions of mune can be used normally):  
+![](https://github.com/remark1x/Caffe_GestureRecognize/raw/master/imags/release_v1.png)  
+
 ### 第一发布版本下载：
 cpp版本项目已打包(源代码未重构，可正常使用旧版)，解压后约200M，仅包括需要的依赖项。<br>
 [链接](https://pan.baidu.com/s/1prBpO7BGj-9Ds4jGvh4QAA,"eypc") `eypc`<br>
