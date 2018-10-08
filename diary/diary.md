@@ -46,7 +46,7 @@ TensorFlow 的语法和资源显然更多更好，应老师的要求，准备用
   * net 中data层的修改：输入层也让人头疼，因为ImageData是支持txt，然后自己转换的，但是却 *hang without any error prompt*，应该是windows上不兼容这个层，最后使用Data layer替换之，问题解决！（所谓问题的发现是根据运行进展来判断的，如果修改得当，那么进展会发生变化，是没有提示下的好办法，而如何修改可以根据网络文件的对比，层的深刻理解来进行。）
   * train log，用到了重定向 2>> ，但是用| tee的时候还是不能使用| 的错误。
   * 然而这么重要的工具caffe早就提供了，并且可以画出loss跟iter关系图！ [解析](https://www.cnblogs.com/Allen-rg/p/5822332.html) [更多画图](https://blog.csdn.net/u011070171/article/details/52936205)
-    * Glog:实现对log文件的管理，指定log路径
+    * Glog:实现对log文件的管理，指定log路径，其实默认记录在root下的log文件夹中了。
     ```Bash
     GLOG_logtostderr=0 GLOG_log_dir=/home/liuyun/caffe/models/AAA/A12/Log/ \
     caffe.exe train ...
